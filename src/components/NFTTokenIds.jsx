@@ -260,9 +260,9 @@ function NFTTokenIds({ inputValue, setInputValue }) {
                       }
                     />
                   </Tooltip>,
-                  <Tooltip title="Buy NFT">
-                    <ShoppingCartOutlined onClick={() => handleBuyClick(nft)} />
-                  </Tooltip>,
+                  // <Tooltip title="Buy NFT">
+                  //   <ShoppingCartOutlined onClick={() => handleBuyClick(nft)} />
+                  // </Tooltip>,
                 ]}
                 style={{ width: 240, border: "2px solid #e7eaf3" }}
                 cover={
