@@ -113,7 +113,7 @@ const App = ({ isServerInfo }) => {
         </div>
       </Router>
       <footer>
-            /*Need to make*/
+  
       </footer>
     </Layout>
   );

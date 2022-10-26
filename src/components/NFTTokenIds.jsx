@@ -218,8 +218,8 @@ function NFTTokenIds({ inputValue, setInputValue }) {
         )}
 
         <div style={styles.NFTs}>
-          {inputValue === "explore" &&
-            NFTCollections?.map((nft, index) => (
+          {NFTCollections && inputValue === "explore" &&
+            NFTCollections.map((nft, index) => (
               <Card
                 hoverable
                 actions={[
@@ -245,7 +245,7 @@ function NFTTokenIds({ inputValue, setInputValue }) {
               </Card>
             ))}
 
-          {inputValue !== "explore" &&
+          {NFTTokenIds && inputValue !== "explore" &&
             NFTTokenIds.slice(0, 20).map((nft, index) => (
               <Card
                 hoverable
